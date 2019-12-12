@@ -38,7 +38,7 @@ sudo tljh-config reload
 
 ## Sharing Notebook via link
 
-http://3.86.27.121/hub/user-redirect/git-pull?repo=https%3A%2F%2Fqc-workgroup%40dev.azure.com%2Fqc-workgroup%2Fqc-master-class%2F_git%2Fqc-master-class&branch=master&subPath=qsharp-intro.ipynb&app=notebook
+http://quantum.wcloudacademy.com/hub/user-redirect/git-pull?repo=https%3A%2F%2Fqc-workgroup%40dev.azure.com%2Fqc-workgroup%2Fqc-master-class%2F_git%2Fqc-master-class&branch=master&subPath=qsharp-intro.ipynb&app=notebook
 
 For generatinng the shared notebook URL (mybinder app for link generation)
 https://mybinder.org/v2/gh/jupyterhub/nbgitpuller/master?urlpath=apps/binder%2Flink_generator.ipynb
