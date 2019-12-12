@@ -4,7 +4,7 @@ curl https://raw.githubusercontent.com/jupyterhub/the-littlest-jupyterhub/master
 
 ## Install Q\# kernel for Jupyter
 export PATH="/opt/tljh/user/bin":$PATH
-sudo env "PATH=$PATH" dotnet iqsharp install
+sudo env "PATH=\$PATH" dotnet iqsharp install
 
 ## .NET installation
 
@@ -18,7 +18,7 @@ sudo apt-get install dotnet-sdk-3.1
 dotnet tool install -g Microsoft.Quantum.IQSharp
 
 ## Qsharp kernet plug-in for Jupyter 
-export PATH="$HOME/.dotnet/":"$HOME/.dotnet/tools":$PATH
+export PATH="\$HOME/.dotnet/":"\$HOME/.dotnet/tools":$PATH
 dotnet tool install -g Microsoft.Quantum.IQSharp
 
 
@@ -47,7 +47,7 @@ https://mybinder.org/v2/gh/jupyterhub/nbgitpuller/master?urlpath=apps/binder%2Fl
 ## Sharing notebook via Folder
 
 sudo mkdir -p /srv/data/qc-master-class
-cp $HOME/xyz.ipybn /srv/data/qc-master-class
+cp \$HOME/xyz.ipybn /srv/data/qc-master-class
 
 cd /etc/skel
 sudo ln -s /srv/data/qc-master-class qc-masterclass
